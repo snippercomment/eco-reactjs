@@ -1,9 +1,13 @@
-import { useState } from 'react';
-import reactLogo from './assets/react.svg';
 import './App.css';
+import MyHeader from '@components/Header/Header';
+import MainLayout from '@components/Layout/Layout';
 
 function App() {
-    return <div>thu di de lai la vàng lai ve componentlen</div>;
+    return (
+        <MainLayout>
+            <MyHeader />
+        </MainLayout>
+    );
 }
 
 export default App;
