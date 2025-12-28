@@ -1,12 +1,10 @@
-import './App.css';
-import MyHeader from '@components/Header/Header';
-import MainLayout from '@components/Layout/Layout';
+import HomePage from '@components/HomePage/HomePage';
 
 function App() {
     return (
-        <MainLayout>
-            <MyHeader />
-        </MainLayout>
+        <>
+            <HomePage />
+        </>
     );
 }
 
