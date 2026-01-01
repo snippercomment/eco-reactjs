@@ -4,7 +4,7 @@ function MainLayout({ children }) {
     const { wrapLayout, container } = styles;
     return (
         <main className={wrapLayout}>
-            <div>{children}</div>
+            <div className={container}>{children}</div>
         </main>
     );
 }
