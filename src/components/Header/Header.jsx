@@ -2,7 +2,7 @@ import BoxIcon from './BoxIcon/BoxIcon';
 import { dataBoxIcon, dataMenu } from './constants';
 import Menu from './Menu/Menu';
 import styles from './style.module.scss';
-import Logo from '@icons/images/logo.png';
+import Logo from '@icons/images/logo.jpg';
 import reLoad from '@icons/svgs/reloadIcon.svg';
 import heart from '@icons/svgs/heartIcon.svg';
 import cart from '@icons/svgs/cartIcon.svg';
@@ -41,7 +41,6 @@ function MyHeader() {
                         style={{
                             width: '153px',
                             height: '53px',
-                            backgroundColor: '#f3eee8',
                         }}
                     />
                 </div>
