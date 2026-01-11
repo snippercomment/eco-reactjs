@@ -1,0 +1,42 @@
+@use '@styles/mixin' as *;
+@use '@styles/variable' as *;
+
+.container {
+    @include flex_box_custom(space-between, center, 0);
+    margin-top: 120px;
+    padding: 0 80px;
+    overflow: hidden;
+}
+
+.title {
+    font-size: 36px;
+    font-weight: 400;
+    color: $four_color;
+    text-align: center;
+}
+
+.des {
+    font-size: 16px;
+    color: $thr_color;
+    font-weight: 300;
+    width: 460px;
+    line-height: 25px;
+    text-align: center;
+    margin: 20px auto;
+}
+
+.boxBtn {
+    @include flex_box_custom(center, center, 0);
+    margin-top: 30px;
+}
+
+.boxImage {
+    width: 420px;
+    flex-shrink: 0;
+    transition: transform 0.8s ease-out;
+
+    img {
+        width: 100%;
+        display: block;
+    }
+}
